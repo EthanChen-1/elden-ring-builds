@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE "Build" ALTER COLUMN "title" SET DEFAULT 'My Elden Ring Build',
+ALTER COLUMN "description" SET DEFAULT 'This build wrecks noobs',
+ALTER COLUMN "rightHandArmament" SET DEFAULT ARRAY[]::TEXT[],
+ALTER COLUMN "arrows" SET DEFAULT ARRAY[]::TEXT[],
+ALTER COLUMN "leftHandArmament" SET DEFAULT ARRAY[]::TEXT[],
+ALTER COLUMN "bolts" SET DEFAULT ARRAY[]::TEXT[],
+ALTER COLUMN "talisman" SET DEFAULT ARRAY[]::TEXT[],
+ALTER COLUMN "item" SET DEFAULT ARRAY[]::TEXT[];
