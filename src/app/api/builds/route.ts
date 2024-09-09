@@ -48,6 +48,7 @@ export async function POST(request: NextRequest) {
 
 export async function GET(request: NextRequest) {
   const builds = await prisma.build.findMany({
+    take: 20,
     select: {
       title: true,
       description: true,

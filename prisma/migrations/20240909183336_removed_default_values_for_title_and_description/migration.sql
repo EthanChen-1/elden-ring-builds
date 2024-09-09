@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Build" ALTER COLUMN "title" DROP DEFAULT,
+ALTER COLUMN "description" DROP DEFAULT;
